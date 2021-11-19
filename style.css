@@ -1,0 +1,306 @@
+.navbar {
+  font-family: 'Josefin Sans', sans-serif;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+#deskripsi-satu {
+  background-color: #4169e1;
+}
+
+#deskripsi-satu h1 {
+  text-align: start;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 50px;
+  font-size: 25px;
+  color: white;
+  text-transform: capitalize;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+#deskripsi-satu img {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  height: 125px;
+}
+
+#deskripsi-satu h2 {
+  text-align: end;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 50px;
+  font-size: 25px;
+  color: white;
+  text-transform: capitalize;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+#deskripsi-satu p {
+  color: white;
+  font-size: 10px;
+  text-transform: capitalize;
+  font-family: 'Josefin Sans', sans-serif;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+#deskripsi-dua {
+  background-color: #4169e1;
+}
+
+#deskripsi-dua h1 {
+  text-align: start;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 50px;
+  font-size: 25px;
+  color: white;
+  text-transform: capitalize;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+#deskripsi-dua h2 {
+  text-align: end;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 50px;
+  font-size: 25px;
+  color: white;
+  text-transform: capitalize;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+#deskripsi-dua h3 {
+  text-align: start;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 50px;
+  font-size: 25px;
+  color: white;
+  text-transform: capitalize;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+#deskripsi-dua p {
+  color: white;
+  font-size: 10px;
+  text-transform: capitalize;
+  font-family: 'Josefin Sans', sans-serif;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+#deskripsi-dua img {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  height: 135px;
+  border-radius: 5px;
+}
+
+#harga {
+  background-color: crimson;
+}
+
+#harga h1 {
+  text-align: start;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 50px;
+  font-size: 25px;
+  color: white;
+  text-transform: capitalize;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+#harga h2 {
+  text-align: start;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 50px;
+  font-size: 25px;
+  color: white;
+  text-transform: capitalize;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+#harga p {
+  color: white;
+  font-size: 10px;
+  text-transform: capitalize;
+  font-family: 'Josefin Sans', sans-serif;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+#harga img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 95px;
+  border-radius: 20px;
+}
+
+#kontak {
+  background-color: gray;
+}
+
+#kontak h1 {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 50px;
+  font-size: 25px;
+  color: white;
+  text-transform: capitalize;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+#kontak p {
+  text-align: center;
+  color: white;
+  font-size: 10px;
+  text-transform: capitalize;
+  font-family: 'Josefin Sans', sans-serif;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    font-family: 'Josefin Sans', sans-serif;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+  }
+
+  #deskripsi-satu {
+    background-color: #4169e1;
+  }
+
+  #deskripsi-satu h1 {
+    text-align: start;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 100px;
+    font-size: 50px;
+    color: white;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+  }
+  #deskripsi-satu h2 {
+    text-align: end;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 100px;
+    font-size: 50px;
+    color: white;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+  }
+
+  #deskripsi-satu p {
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+  }
+
+  #deskripsi-satu img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 350px;
+  }
+
+  #deskripsi-dua {
+    background-color: #4169e1;
+  }
+
+  #deskripsi-dua h1 {
+    text-align: start;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 50px;
+    font-size: 50px;
+    color: white;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+  }
+
+  #deskripsi-dua h2 {
+    text-align: end;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 100px;
+    font-size: 50px;
+    color: white;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+  }
+  #deskripsi-dua h3 {
+    text-align: start;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 100px;
+    font-size: 50px;
+    color: white;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+  }
+
+  #deskripsi-dua p {
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+  }
+
+  #deskripsi-dua img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 450px;
+    border-radius: 20px;
+  }
+
+  #harga {
+    background-color: crimson;
+  }
+
+  #harga h1 {
+    text-align: start;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 50px;
+    font-size: 50px;
+    color: white;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+  }
+
+  #harga h2 {
+    text-align: start;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 100px;
+    font-size: 50px;
+    color: white;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+  }
+
+  #harga p {
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+  }
+
+  #harga img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 350px;
+    border-radius: 20px;
+  }
+
+  #kontak {
+    background-color: gray;
+  }
+
+  #kontak h1 {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 100px;
+    font-size: 50px;
+    color: white;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+  }
+
+  #kontak p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+  }
+}
