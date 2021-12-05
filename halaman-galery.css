@@ -1,0 +1,68 @@
+/* my galery section */
+
+#galery {
+  background-color: crimson;
+}
+
+#galery h1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+.galery-box {
+  position: relative;
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  height: 500px;
+  transform-style: preserve-3d;
+}
+
+.galery-box::before {
+  content: 'KEGIATAN';
+  position: absolute;
+  font-size: 3em;
+  font-weight: bold;
+  font-style: italic;
+  top: 20px;
+  left: 50%;
+  transform: translate3d(-50%, 0, 80px) rotate(0);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.galery-box:hover::before {
+  opacity: 0.8;
+}
+
+.galery-box::after {
+  content: 'SAYA';
+  position: absolute;
+  font-size: 3em;
+  font-weight: bold;
+  font-style: italic;
+  top: 400px;
+  left: 50%;
+  transform: translate3d(-50%, 0, 80px) rotate(0);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.galery-box:hover::after {
+  opacity: 0.8;
+}
+
+.galery-img {
+  border-radius: 30px;
+  max-width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 100px);
+  transition: 0.5s;
+}
+
+.galery-box:hover .galery-img {
+  transform: translate3d(-50%, -52%, 100px) scale(1) rotate(0);
+}
